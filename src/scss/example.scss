@@ -1,0 +1,16 @@
+$main-color: red;
+
+@mixin btn {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn {
+    color: $main-color;
+    @include btn;
+}
+
+.btn-large {
+    padding: 10px 15px;
+    @include btn;
+}

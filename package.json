@@ -1,0 +1,16 @@
+{
+  "name": "task-gulp-sass-solution",
+  "version": "1.0.0",
+  "description": "1. Создайте проект.\r 2. Создайте Gulp-файл.\r 3. Настройте компиляцию SCSS в CSS из папки \"src/scss\" в папку \"dist/css\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "keywords": []
+}

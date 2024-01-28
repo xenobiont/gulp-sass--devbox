@@ -1,0 +1,63 @@
+@import "variables";
+@import "mixin";
+
+@import "sections/navbar";
+
+.btn {
+    @include linkBtn;
+}
+
+.news-list {
+    @include flex-center;
+}
+
+.main-section {
+    padding: 45px 0;
+}
+
+.input-#{$errorName} {
+    border: 1px solid red;
+}
+
+.header-title {
+    color: $primary-color;
+}
+
+.file-#{$errorName} {
+    color: red;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        margin-right: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $primary-color;
+        font: $primary-font;
+    }
+
+    a.#{$activeElement} {
+        font-weight: bold;
+    }
+}
+
+.top {
+    padding: 20px 0;
+
+    &-logo {
+        text-decoration: none;
+
+        &-link {
+            font-size: 14px;
+        }
+    }
+
+    &-title {
+        font-size: 24px;
+    }
+}
